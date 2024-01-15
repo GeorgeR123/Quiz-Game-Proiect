@@ -12,10 +12,7 @@ using static quizGame.GlobalVariables;
 namespace quizGame
 {
 
-    public static class GlobalVariables
-    {
-        public static int money = 100;
-    }
+
     public partial class StartMenu : Form
     {
         public StartMenu()
@@ -44,5 +41,22 @@ namespace quizGame
             gameWindow.Show();
 
         }
+
+        private void LoadMagazin(object sender, EventArgs e)
+        {
+            Magazin gameWindow = new Magazin();
+
+            gameWindow.Show();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
+
+    public static class GlobalVariables
+    {
+        public static int money = 100;
     }
 }
