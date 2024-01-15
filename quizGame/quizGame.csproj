@@ -61,18 +61,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Formsss.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Formsss.Designer.cs">
-      <DependentUpon>Formsss.cs</DependentUpon>
-    </Compile>
     <Compile Include="Magazin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,9 +92,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Formsss.resx">
-      <DependentUpon>Formsss.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Magazin.resx">
       <DependentUpon>Magazin.cs</DependentUpon>
     </EmbeddedResource>
