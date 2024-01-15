@@ -23,5 +23,17 @@ namespace quizGame
 
             gameWindow.Show();
         }
+
+        private void LevelMenu_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LoadLvl2_2(object sender, EventArgs e)
+        {
+            Formsss gameWindow = new Formsss();
+
+            gameWindow.Show();
+        }
     }
 }

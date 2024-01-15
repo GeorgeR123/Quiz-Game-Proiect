@@ -11,37 +11,18 @@ using static quizGame.GlobalVariables;
 
 namespace quizGame
 {
-
-    public static class GlobalVariables
+    public partial class Formsss : Form
     {
-        public static int money = 100;
-    }
-    public partial class StartMenu : Form
-    {
-        public StartMenu()
+        
+        public Formsss()
         {
             InitializeComponent();
 
             moneyLabel.Text = GlobalVariables.money.ToString();
-
-
-        }
-
-        private void Form2_Load(object sender, EventArgs e)
-        {
-
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void LoadLevelMenu(object sender, EventArgs e)
-        {
-            LevelMenu gameWindow = new LevelMenu();
-
-            gameWindow.Show();
 
         }
     }
