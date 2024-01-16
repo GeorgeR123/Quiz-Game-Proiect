@@ -17,9 +17,43 @@ namespace quizGame
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void LoadMButton1(object sender, EventArgs e)
         {
-            QLevel1 gameWindow = new QLevel1();
+            MLV1 gameWindow = new MLV1();
+
+            gameWindow.Show();
+        }
+        /*
+        private void LoadMButton2(object sender, EventArgs e)
+        {
+            MLV2 gameWindow = new MLV2();
+
+            gameWindow.Show();
+        }
+        
+        private void LoadMButton3(object sender, EventArgs e)
+        {
+            MLV3 gameWindow = new MLV3();
+
+            gameWindow.Show();
+        }
+        */
+        private void LoadCTButton1(object sender, EventArgs e)
+        {
+            CGLV1 gameWindow = new CGLV1();
+
+            gameWindow.Show();
+        }
+
+        private void LoadCTButton2(object sender, EventArgs e)
+        {
+            CGLV2 gameWindow = new CGLV2();
+
+            gameWindow.Show();
+        }
+        private void LoadCTButton3(object sender, EventArgs e)
+        {
+            CGLV3 gameWindow = new CGLV3();
 
             gameWindow.Show();
         }
@@ -31,9 +65,7 @@ namespace quizGame
 
         private void LoadLvl2_2(object sender, EventArgs e)
         {
-            Formsss gameWindow = new Formsss();
-
-            gameWindow.Show();
+            
         }
     }
 }

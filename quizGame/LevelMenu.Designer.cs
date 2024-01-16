@@ -29,39 +29,71 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LevelMenu));
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.CTButton1 = new System.Windows.Forms.Button();
+            this.MButton1 = new System.Windows.Forms.Button();
+            this.CTButton2 = new System.Windows.Forms.Button();
+            this.CTButton3 = new System.Windows.Forms.Button();
+            this.MButton2 = new System.Windows.Forms.Button();
+            this.MButton3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // CTButton1
             // 
-            this.button1.Location = new System.Drawing.Point(112, 112);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(90, 38);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "NIVEL 1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.CTButton1.Location = new System.Drawing.Point(136, 112);
+            this.CTButton1.Name = "CTButton1";
+            this.CTButton1.Size = new System.Drawing.Size(90, 38);
+            this.CTButton1.TabIndex = 0;
+            this.CTButton1.Text = "NIVEL 1";
+            this.CTButton1.UseVisualStyleBackColor = true;
+            this.CTButton1.Click += new System.EventHandler(this.LoadCTButton1);
             // 
-            // button2
+            // MButton1
             // 
-            this.button2.Location = new System.Drawing.Point(112, 192);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(90, 38);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "NIVEL 1";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.LoadLvl2_2);
+            this.MButton1.Location = new System.Drawing.Point(136, 248);
+            this.MButton1.Name = "MButton1";
+            this.MButton1.Size = new System.Drawing.Size(90, 38);
+            this.MButton1.TabIndex = 1;
+            this.MButton1.Text = "NIVEL 1";
+            this.MButton1.UseVisualStyleBackColor = true;
+            this.MButton1.Click += new System.EventHandler(this.LoadMButton1);
             // 
-            // label1
+            // CTButton2
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(592, 32);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(44, 16);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "label1";
+            this.CTButton2.Location = new System.Drawing.Point(272, 112);
+            this.CTButton2.Name = "CTButton2";
+            this.CTButton2.Size = new System.Drawing.Size(90, 38);
+            this.CTButton2.TabIndex = 2;
+            this.CTButton2.Text = "NIVEL 2";
+            this.CTButton2.UseVisualStyleBackColor = true;
+            this.CTButton2.Click += new System.EventHandler(this.LoadCTButton2);
+            // 
+            // CTButton3
+            // 
+            this.CTButton3.Location = new System.Drawing.Point(408, 112);
+            this.CTButton3.Name = "CTButton3";
+            this.CTButton3.Size = new System.Drawing.Size(90, 38);
+            this.CTButton3.TabIndex = 3;
+            this.CTButton3.Text = "NIVEL 3";
+            this.CTButton3.UseVisualStyleBackColor = true;
+            this.CTButton3.Click += new System.EventHandler(this.LoadCTButton2);
+            // 
+            // MButton2
+            // 
+            this.MButton2.Location = new System.Drawing.Point(272, 248);
+            this.MButton2.Name = "MButton2";
+            this.MButton2.Size = new System.Drawing.Size(90, 38);
+            this.MButton2.TabIndex = 6;
+            this.MButton2.Text = "NIVEL 2";
+            this.MButton2.UseVisualStyleBackColor = true;
+            // 
+            // MButton3
+            // 
+            this.MButton3.Location = new System.Drawing.Point(408, 248);
+            this.MButton3.Name = "MButton3";
+            this.MButton3.Size = new System.Drawing.Size(90, 38);
+            this.MButton3.TabIndex = 7;
+            this.MButton3.Text = "NIVEL 3";
+            this.MButton3.UseVisualStyleBackColor = true;
             // 
             // LevelMenu
             // 
@@ -70,22 +102,27 @@
             this.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(797, 594);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.MButton3);
+            this.Controls.Add(this.MButton2);
+            this.Controls.Add(this.CTButton3);
+            this.Controls.Add(this.CTButton2);
+            this.Controls.Add(this.MButton1);
+            this.Controls.Add(this.CTButton1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "LevelMenu";
             this.Text = "LevelMenu";
             this.Load += new System.EventHandler(this.LevelMenu_Load);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button CTButton1;
+        private System.Windows.Forms.Button MButton1;
+        private System.Windows.Forms.Button CTButton2;
+        private System.Windows.Forms.Button CTButton3;
+        private System.Windows.Forms.Button MButton2;
+        private System.Windows.Forms.Button MButton3;
     }
 }
