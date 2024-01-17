@@ -207,15 +207,39 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\ziua femeii.jpeg" />
+    <None Include="Resources\anul are.jpeg" />
     <Content Include="Resources\Arena_vector_9.jpg" />
     <Content Include="Resources\arrow.png" />
+    <None Include="Resources\cheia sol.jpeg" />
+    <None Include="Resources\crrreanga-1-1024x695.jpg" />
+    <None Include="Resources\constanta.jpeg" />
+    <None Include="Resources\cardinal soare.jpeg" />
+    <None Include="Resources\capracutrei.jpg" />
+    <None Include="Resources\copac iarna.jpeg" />
+    <None Include="Resources\ce fenomen iarna.jpeg" />
     <Content Include="Resources\csgo.jpg" />
+    <None Include="Resources\cuprins.jpeg" />
+    <None Include="Resources\forma relief brazi.jpeg" />
+    <None Include="Resources\Elevii încep şcoala în anotimpul .jpeg" />
     <Content Include="Resources\fortnite.jpg" />
     <Content Include="Resources\gears of war.jpg" />
+    <None Include="Resources\grau.jpeg" />
     <Content Include="Resources\halo.jpg" />
+    <None Include="Resources\lizuca-e1478255883872.jpg" />
     <Content Include="Resources\mainmenubg.jpg" />
     <Content Include="Resources\MenuShopBG.jpeg" />
+    <None Include="Resources\polar.jpeg" />
+    <None Include="Resources\piele.jpeg" />
+    <None Include="Resources\minori.jpeg" />
+    <None Include="Resources\pesti.jpeg" />
+    <None Include="Resources\prima luna de primavara.jpeg" />
     <Content Include="Resources\questions.png" />
+    <None Include="Resources\roma.jpeg" />
+    <None Include="Resources\sfecla.jpeg" />
+    <None Include="Resources\triunghi.jpeg" />
+    <None Include="Resources\semafor.jpg" />
+    <None Include="Resources\vestitor.jpeg" />
     <Content Include="Resources\witcher3.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

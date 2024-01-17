@@ -101,7 +101,7 @@ namespace quizGame
 
                 case 1:
 
-                    pictureBox1.Image = Properties.Resources.questions;
+                    pictureBox1.Image = Properties.Resources.anul_are;
                     lblQuestion.Text = "Anul are:";
 
                     button1.Text = " 2 anotimpuri ";
@@ -113,7 +113,7 @@ namespace quizGame
 
                     break;
                 case 2:
-                    pictureBox1.Image = Properties.Resources.questions;
+                    pictureBox1.Image = Properties.Resources.Elevii_încep_şcoala_în_anotimpul_;
                     lblQuestion.Text = "Elevii încep şcoala în anotimpul : ";
 
                     button1.Text = " Primăvara ";
@@ -127,7 +127,7 @@ namespace quizGame
 
                 case 3:
 
-                    pictureBox1.Image = Properties.Resources.fortnite;
+                    pictureBox1.Image = Properties.Resources.prima_luna_de_primavara;
 
                     lblQuestion.Text = " Prima lună de primăvară este luna:";
 
@@ -142,7 +142,7 @@ namespace quizGame
 
                 case 4:
 
-                    pictureBox1.Image = Properties.Resources.questions;
+                    pictureBox1.Image = Properties.Resources.ziua_femeii;
 
                     lblQuestion.Text = " Ziua Femeii este la : ";
 
@@ -157,7 +157,7 @@ namespace quizGame
 
                 case 5:
 
-                    pictureBox1.Image = Properties.Resources.gears_of_war;
+                    pictureBox1.Image = Properties.Resources.vestitor;
 
                     lblQuestion.Text = " Vestitorul primăverii este : ";
 
@@ -172,7 +172,7 @@ namespace quizGame
 
                 case 6:
 
-                    pictureBox1.Image = Properties.Resources.halo;
+                    pictureBox1.Image = Properties.Resources.ce_fenomen_iarna;
 
                     lblQuestion.Text = "Ce fenomen al naturii întâlnim frecvent în anotimpul iarna ? ";
 
@@ -187,7 +187,7 @@ namespace quizGame
 
                 case 7:
 
-                    pictureBox1.Image = Properties.Resources.csgo;
+                    pictureBox1.Image = Properties.Resources.copac_iarna;
 
                     lblQuestion.Text = "Ce copac îşi păstrează frunzele în timpul iernii?";
 
@@ -202,7 +202,7 @@ namespace quizGame
 
                 case 8:
 
-                    pictureBox1.Image = Properties.Resources.witcher3;
+                    pictureBox1.Image = Properties.Resources.capracutrei;
 
                     lblQuestion.Text = " Cine a mâncat cei doi iezi din povestea Capra cu trei iezi?";
 

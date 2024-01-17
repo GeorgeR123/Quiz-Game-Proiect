@@ -97,7 +97,7 @@ namespace quizGame
 
                 case 1:
 
-                    pictureBox1.Image = Properties.Resources.questions;
+                    pictureBox1.Image = Properties.Resources.semafor;
                     lblQuestion.Text = "Culorile semaforului sunt:";
 
                     button1.Text = " verde-roşu-galben";
@@ -109,7 +109,7 @@ namespace quizGame
 
                     break;
                 case 2:
-                    pictureBox1.Image = Properties.Resources.questions;
+                    pictureBox1.Image = Properties.Resources.cardinal_soare;
                     lblQuestion.Text = " Din ce punct cardinal răsare soarele:";
 
                     button1.Text = "vest ";
@@ -123,7 +123,7 @@ namespace quizGame
 
                 case 3:
 
-                    pictureBox1.Image = Properties.Resources.fortnite;
+                    pictureBox1.Image = Properties.Resources.forma_relief_brazi;
 
                     lblQuestion.Text = "Cum se numeşte forma de relief în care predomină brazii? ";
 
@@ -138,7 +138,7 @@ namespace quizGame
 
                 case 4:
 
-                    pictureBox1.Image = Properties.Resources.questions;
+                    pictureBox1.Image = Properties.Resources.pesti;
 
                     lblQuestion.Text = "Peştii îşi iau oxigenul pentru respirație din:";
 
@@ -153,7 +153,7 @@ namespace quizGame
 
                 case 5:
 
-                    pictureBox1.Image = Properties.Resources.gears_of_war;
+                    pictureBox1.Image = Properties.Resources.lizuca_e1478255883872;
 
                     lblQuestion.Text = "Lizuca este personajul feminin din:";
 
@@ -168,7 +168,7 @@ namespace quizGame
 
                 case 6:
 
-                    pictureBox1.Image = Properties.Resources.halo;
+                    pictureBox1.Image = Properties.Resources.grau;
 
                     lblQuestion.Text = "Cum se numeşte cereala din făina căreia se fac prăjituri:";
 
@@ -183,7 +183,7 @@ namespace quizGame
 
                 case 7:
 
-                    pictureBox1.Image = Properties.Resources.csgo;
+                    pictureBox1.Image = Properties.Resources.constanta;
 
                     lblQuestion.Text = "Care este oraşul cel mai apropiat de Marea Neagră:";
 
@@ -198,7 +198,7 @@ namespace quizGame
 
                 case 8:
 
-                    pictureBox1.Image = Properties.Resources.witcher3;
+                    pictureBox1.Image = Properties.Resources.minori;
 
                     lblQuestion.Text = "Copii sub 18 ani sunt considerați :";
 

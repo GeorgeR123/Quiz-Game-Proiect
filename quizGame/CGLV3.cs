@@ -98,7 +98,7 @@ namespace quizGame
 
                 case 1:
 
-                    pictureBox1.Image = Properties.Resources.questions;
+                    pictureBox1.Image = Properties.Resources.triunghi;
                     labelQuestion.Text = "Câte laturi are un tringhi?";
 
                     button1.Text = "4";
@@ -110,7 +110,7 @@ namespace quizGame
 
                     break;
                 case 2:
-                    pictureBox1.Image = Properties.Resources.questions;
+                    pictureBox1.Image = Properties.Resources.sfecla;
                     labelQuestion.Text = "Din prelucrarea sfeclei de zahăr se obține:";
 
                     button1.Text = "zahăr";
@@ -124,7 +124,7 @@ namespace quizGame
 
                 case 3:
 
-                    pictureBox1.Image = Properties.Resources.fortnite;
+                    pictureBox1.Image = Properties.Resources.crrreanga_1_1024x695;
 
                     labelQuestion.Text = " Unde s-a născut prozatorul român Ion Creangă (1837-1890)? ";
 
@@ -139,7 +139,7 @@ namespace quizGame
 
                 case 4:
 
-                    pictureBox1.Image = Properties.Resources.questions;
+                    pictureBox1.Image = Properties.Resources.roma;
 
                     labelQuestion.Text = "Roma este capitala :";
 
@@ -154,7 +154,7 @@ namespace quizGame
 
                 case 5:
 
-                    pictureBox1.Image = Properties.Resources.gears_of_war;
+                    pictureBox1.Image = Properties.Resources.cuprins;
 
                     labelQuestion.Text = "Partea cea mai dezvoltată a unei compuneri se numeşte:";
 
@@ -169,7 +169,7 @@ namespace quizGame
 
                 case 6:
 
-                    pictureBox1.Image = Properties.Resources.halo;
+                    pictureBox1.Image = Properties.Resources.cheia_sol;
 
                     labelQuestion.Text = "La începutul unui portativ muzical se scrie cheia:";
 
@@ -184,7 +184,7 @@ namespace quizGame
 
                 case 7:
 
-                    pictureBox1.Image = Properties.Resources.csgo;
+                    pictureBox1.Image = Properties.Resources.piele;
 
                     labelQuestion.Text = "Organul pipăitului este :";
 
@@ -199,7 +199,7 @@ namespace quizGame
 
                 case 8:
 
-                    pictureBox1.Image = Properties.Resources.witcher3;
+                    pictureBox1.Image = Properties.Resources.polar;
 
                     labelQuestion.Text = " Ce animal nu trăieşte în zonele polare?";
 
