@@ -44,7 +44,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(368, 112);
             this.button1.TabIndex = 0;
-            this.button1.Text = "PORNESTE JOCUL QUIZ";
+            this.button1.Text = "NIVELE";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.LoadLevelMenu);
             // 
@@ -72,8 +72,9 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(368, 112);
             this.button3.TabIndex = 3;
-            this.button3.Text = "PORNESTE JOCUL DUEL";
+            this.button3.Text = "DUEL";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.LoadDuel);
             // 
             // moneyLabel
             // 

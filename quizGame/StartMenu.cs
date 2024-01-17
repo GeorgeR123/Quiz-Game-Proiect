@@ -53,6 +53,13 @@ namespace quizGame
         {
 
         }
+
+        private void LoadDuel(object sender, EventArgs e)
+        {
+            Duel gameWindow = new Duel();
+
+            gameWindow.Show();
+        }
     }
 
     public static class GlobalVariables

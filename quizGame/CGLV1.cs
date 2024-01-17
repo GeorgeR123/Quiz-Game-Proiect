@@ -17,9 +17,11 @@ namespace quizGame
         // variables list for this quiz game
         int correctAnswer;
         int questionNumber = 1;
+        int player_score;
         int score;
         int percentage;
         int totalQuestions;
+        int totalScore;
 
         
 
@@ -73,10 +75,12 @@ namespace quizGame
                     money += 100;
                 }
 
+                player_score = score;
                 score = 0;
                 questionNumber = 0;
 
                 askQuestion(questionNumber);
+                this.Close();
             }
 
             questionNumber++;

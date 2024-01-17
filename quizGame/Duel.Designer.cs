@@ -78,6 +78,7 @@
             this.CTButton3.TabIndex = 17;
             this.CTButton3.Text = "NIVEL 3";
             this.CTButton3.UseVisualStyleBackColor = true;
+            this.CTButton3.Click += new System.EventHandler(this.LoadCTButton3);
             // 
             // CTButton2
             // 
@@ -87,6 +88,7 @@
             this.CTButton2.TabIndex = 16;
             this.CTButton2.Text = "NIVEL 2";
             this.CTButton2.UseVisualStyleBackColor = true;
+            this.CTButton2.Click += new System.EventHandler(this.LoadCTButton2);
             // 
             // CTButton1
             // 
@@ -96,6 +98,7 @@
             this.CTButton1.TabIndex = 15;
             this.CTButton1.Text = "NIVEL 1";
             this.CTButton1.UseVisualStyleBackColor = true;
+            this.CTButton1.Click += new System.EventHandler(this.LoadCTButton1);
             // 
             // textBox1
             // 
