@@ -23,7 +23,7 @@ namespace quizGame
 
             gameWindow.Show();
         }
-        /*
+        
         private void LoadMButton2(object sender, EventArgs e)
         {
             MLV2 gameWindow = new MLV2();
@@ -37,7 +37,7 @@ namespace quizGame
 
             gameWindow.Show();
         }
-        */
+        
         private void LoadCTButton1(object sender, EventArgs e)
         {
             CGLV1 gameWindow = new CGLV1();
@@ -66,6 +66,13 @@ namespace quizGame
         private void LoadLvl2_2(object sender, EventArgs e)
         {
             
+        }
+
+        private void nextLvlMenu(object sender, EventArgs e)
+        {
+            LevelMenu2 gameWindow = new LevelMenu2();
+
+            gameWindow.Show();
         }
     }
 }

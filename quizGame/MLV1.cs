@@ -4,10 +4,12 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.ToolTip;
+using static quizGame.GlobalVariables;
 
 namespace quizGame
 {
@@ -63,6 +65,16 @@ namespace quizGame
                                 "Apasa butonul ok pentru a juca din nou"
 
                     );
+
+                if (questionNumber == 7)
+                {
+                    money += 50;
+                }
+                else if (questionNumber == 8)
+                {
+                    money += 100;
+                }
+
 
                 score = 0;
                 questionNumber = 0;

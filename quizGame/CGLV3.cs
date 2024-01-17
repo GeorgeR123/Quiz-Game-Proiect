@@ -4,9 +4,11 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static quizGame.GlobalVariables;
 
 namespace quizGame
 {
@@ -63,6 +65,15 @@ namespace quizGame
 
                     );
 
+                if (questionNumber == 7)
+                {
+                    money += 50;
+                }
+                else if (questionNumber == 8)
+                {
+                    money += 100;
+                }
+
                 score = 0;
                 questionNumber = 0;
 
@@ -88,7 +99,7 @@ namespace quizGame
                 case 1:
 
                     pictureBox1.Image = Properties.Resources.questions;
-                    lblQuestion.Text = "Câte laturi are un tringhi?";
+                    labelQuestion.Text = "Câte laturi are un tringhi?";
 
                     button1.Text = "4";
                     button2.Text = "5";
@@ -100,7 +111,7 @@ namespace quizGame
                     break;
                 case 2:
                     pictureBox1.Image = Properties.Resources.questions;
-                    lblQuestion.Text = "Din prelucrarea sfeclei de zahăr se obține:";
+                    labelQuestion.Text = "Din prelucrarea sfeclei de zahăr se obține:";
 
                     button1.Text = "zahăr";
                     button2.Text = "sare";
@@ -115,7 +126,7 @@ namespace quizGame
 
                     pictureBox1.Image = Properties.Resources.fortnite;
 
-                    lblQuestion.Text = " Unde s-a născut prozatorul român Ion Creangă (1837-1890)? ";
+                    labelQuestion.Text = " Unde s-a născut prozatorul român Ion Creangă (1837-1890)? ";
 
                     button1.Text = "Piteşti";
                     button2.Text = "Ipoteşti";
@@ -130,7 +141,7 @@ namespace quizGame
 
                     pictureBox1.Image = Properties.Resources.questions;
 
-                    lblQuestion.Text = "Roma este capitala :";
+                    labelQuestion.Text = "Roma este capitala :";
 
                     button1.Text = "Italiei";
                     button2.Text = "Bulgariei";
@@ -145,7 +156,7 @@ namespace quizGame
 
                     pictureBox1.Image = Properties.Resources.gears_of_war;
 
-                    lblQuestion.Text = "Partea cea mai dezvoltată a unei compuneri se numeşte:";
+                    labelQuestion.Text = "Partea cea mai dezvoltată a unei compuneri se numeşte:";
 
                     button1.Text = "text  ";
                     button2.Text = " deznodământ ";
@@ -160,7 +171,7 @@ namespace quizGame
 
                     pictureBox1.Image = Properties.Resources.halo;
 
-                    lblQuestion.Text = "La începutul unui portativ muzical se scrie cheia:";
+                    labelQuestion.Text = "La începutul unui portativ muzical se scrie cheia:";
 
                     button1.Text = "la";
                     button2.Text = "do";
@@ -175,7 +186,7 @@ namespace quizGame
 
                     pictureBox1.Image = Properties.Resources.csgo;
 
-                    lblQuestion.Text = "Organul pipăitului este :";
+                    labelQuestion.Text = "Organul pipăitului este :";
 
                     button1.Text = "ochiul";
                     button2.Text = " nasul ";
@@ -190,7 +201,7 @@ namespace quizGame
 
                     pictureBox1.Image = Properties.Resources.witcher3;
 
-                    lblQuestion.Text = " Ce animal nu trăieşte în zonele polare?";
+                    labelQuestion.Text = " Ce animal nu trăieşte în zonele polare?";
 
                     button1.Text = "pinguinul";
                     button2.Text = "elefantul";

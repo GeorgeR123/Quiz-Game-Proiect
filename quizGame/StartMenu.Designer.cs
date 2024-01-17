@@ -68,11 +68,11 @@
             // 
             this.button3.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(80, 440);
+            this.button3.Location = new System.Drawing.Point(80, 304);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(368, 112);
             this.button3.TabIndex = 3;
-            this.button3.Text = "PORNESTE JOCUL QUIZ";
+            this.button3.Text = "PORNESTE JOCUL DUEL";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // moneyLabel
@@ -101,7 +101,7 @@
             // 
             this.button2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(80, 304);
+            this.button2.Location = new System.Drawing.Point(80, 440);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(368, 112);
             this.button2.TabIndex = 6;

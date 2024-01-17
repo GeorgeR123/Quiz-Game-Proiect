@@ -24,3 +24,6 @@ C:\Users\georg\Source\Repos\GeorgeR123\Quiz-Game-Proiect\quizGame\obj\Debug\quiz
 C:\Users\georg\Source\Repos\GeorgeR123\Quiz-Game-Proiect\quizGame\obj\Debug\quizGame.CGLV2.resources
 C:\Users\georg\Source\Repos\GeorgeR123\Quiz-Game-Proiect\quizGame\obj\Debug\quizGame.CGLV3.resources
 C:\Users\georg\Source\Repos\GeorgeR123\Quiz-Game-Proiect\quizGame\obj\Debug\quizGame.MLV1.resources
+C:\Users\georg\Source\Repos\GeorgeR123\Quiz-Game-Proiect\quizGame\obj\Debug\quizGame.MLV2.resources
+C:\Users\georg\Source\Repos\GeorgeR123\Quiz-Game-Proiect\quizGame\obj\Debug\quizGame.MLV3.resources
+C:\Users\georg\Source\Repos\GeorgeR123\Quiz-Game-Proiect\quizGame\obj\Debug\quizGame.LevelMenu2.resources

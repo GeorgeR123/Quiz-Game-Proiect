@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static quizGame.GlobalVariables;
 
 namespace quizGame
 {
@@ -20,6 +21,7 @@ namespace quizGame
         int percentage;
         int totalQuestions;
 
+        
 
         public CGLV1()
         {
@@ -29,7 +31,7 @@ namespace quizGame
 
             totalQuestions = 8;
 
-
+            moneyLabel.Text = GlobalVariables.money.ToString();
 
         }
 
@@ -62,6 +64,14 @@ namespace quizGame
                                 "Click Ok to play again"
 
                     );
+                if (questionNumber == 7)
+                {
+                    money += 50;
+                }
+                else if (questionNumber == 8)
+                {
+                    money += 100;
+                }
 
                 score = 0;
                 questionNumber = 0;

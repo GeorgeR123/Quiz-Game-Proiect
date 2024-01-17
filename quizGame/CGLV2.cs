@@ -4,9 +4,11 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static quizGame.GlobalVariables;
 
 namespace quizGame
 {
@@ -62,6 +64,14 @@ namespace quizGame
                                 "Click Ok to play again"
 
                     );
+                if (questionNumber == 7)
+                {
+                    money += 50;
+                }
+                else if (questionNumber == 8)
+                {
+                    money += 100;
+                }
 
                 score = 0;
                 questionNumber = 0;

@@ -36,6 +36,8 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.lblQuestion = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.moneyLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -44,7 +46,7 @@
             this.pictureBox1.BackColor = System.Drawing.Color.Yellow;
             this.pictureBox1.Image = global::quizGame.Properties.Resources.questions;
             this.pictureBox1.Location = new System.Drawing.Point(29, 16);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(1021, 374);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -54,7 +56,7 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(9, 526);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(473, 62);
             this.button1.TabIndex = 1;
@@ -66,7 +68,7 @@
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(577, 526);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(473, 62);
             this.button2.TabIndex = 1;
@@ -78,7 +80,7 @@
             // button3
             // 
             this.button3.Location = new System.Drawing.Point(9, 629);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(473, 62);
             this.button3.TabIndex = 1;
@@ -90,7 +92,7 @@
             // button4
             // 
             this.button4.Location = new System.Drawing.Point(577, 629);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button4.Margin = new System.Windows.Forms.Padding(4);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(473, 62);
             this.button4.TabIndex = 1;
@@ -110,22 +112,46 @@
             this.lblQuestion.Text = "Question";
             this.lblQuestion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // QLevel1
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Cursor = System.Windows.Forms.Cursors.No;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(496, 504);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(19, 20);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "$";
+            // 
+            // moneyLabel
+            // 
+            this.moneyLabel.AutoSize = true;
+            this.moneyLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.moneyLabel.Location = new System.Drawing.Point(512, 504);
+            this.moneyLabel.Name = "moneyLabel";
+            this.moneyLabel.Size = new System.Drawing.Size(109, 20);
+            this.moneyLabel.TabIndex = 6;
+            this.moneyLabel.Text = "moneyLabel";
+            // 
+            // CGLV1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 709);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.moneyLabel);
             this.Controls.Add(this.lblQuestion);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.Name = "QLevel1";
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Name = "CGLV1";
             this.Text = "Math Level 1";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -137,6 +163,8 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label lblQuestion;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label moneyLabel;
     }
 }
 

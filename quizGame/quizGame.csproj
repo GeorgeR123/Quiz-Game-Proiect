@@ -79,11 +79,29 @@
     <Compile Include="CGLV3.designer.cs">
       <DependentUpon>CGLV3.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
+    <Compile Include="Duel.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="Duel.Designer.cs">
+      <DependentUpon>Duel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LevelMenu2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LevelMenu2.Designer.cs">
+      <DependentUpon>LevelMenu2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MLV2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MLV2.designer.cs">
+      <DependentUpon>MLV2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MLV3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MLV3.designer.cs">
+      <DependentUpon>MLV3.cs</DependentUpon>
     </Compile>
     <Compile Include="LevelMenu.cs">
       <SubType>Form</SubType>
@@ -131,6 +149,18 @@
     <EmbeddedResource Include="CGLV3.resx">
       <DependentUpon>CGLV3.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Duel.resx">
+      <DependentUpon>Duel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LevelMenu2.resx">
+      <DependentUpon>LevelMenu2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MLV2.resx">
+      <DependentUpon>MLV2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MLV3.resx">
+      <DependentUpon>MLV3.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LevelMenu.resx">
       <DependentUpon>LevelMenu.cs</DependentUpon>
     </EmbeddedResource>
@@ -177,6 +207,8 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Resources\Arena_vector_9.jpg" />
+    <Content Include="Resources\arrow.png" />
     <Content Include="Resources\csgo.jpg" />
     <Content Include="Resources\fortnite.jpg" />
     <Content Include="Resources\gears of war.jpg" />
