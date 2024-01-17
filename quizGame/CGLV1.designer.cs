@@ -38,6 +38,7 @@
             this.lblQuestion = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.moneyLabel = new System.Windows.Forms.Label();
+            this.help = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -55,7 +56,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(9, 526);
+            this.button1.Location = new System.Drawing.Point(8, 528);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(473, 62);
@@ -79,7 +80,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(9, 629);
+            this.button3.Location = new System.Drawing.Point(8, 624);
             this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(473, 62);
@@ -91,7 +92,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(577, 629);
+            this.button4.Location = new System.Drawing.Point(576, 624);
             this.button4.Margin = new System.Windows.Forms.Padding(4);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(473, 62);
@@ -133,11 +134,22 @@
             this.moneyLabel.TabIndex = 6;
             this.moneyLabel.Text = "moneyLabel";
             // 
+            // help
+            // 
+            this.help.Location = new System.Drawing.Point(480, 584);
+            this.help.Name = "help";
+            this.help.Size = new System.Drawing.Size(96, 48);
+            this.help.TabIndex = 8;
+            this.help.Text = "ajutor";
+            this.help.UseVisualStyleBackColor = true;
+            this.help.Click += new System.EventHandler(this.ajutor);
+            // 
             // CGLV1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 709);
+            this.Controls.Add(this.help);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.moneyLabel);
             this.Controls.Add(this.lblQuestion);
@@ -165,6 +177,7 @@
         private System.Windows.Forms.Label lblQuestion;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label moneyLabel;
+        private System.Windows.Forms.Button help;
     }
 }
 

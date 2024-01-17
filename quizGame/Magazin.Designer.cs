@@ -47,7 +47,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(264, 144);
+            this.label1.Location = new System.Drawing.Point(264, 120);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(21, 22);
             this.label1.TabIndex = 1;
@@ -57,7 +57,7 @@
             // moneyLabel
             // 
             this.moneyLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.moneyLabel.Location = new System.Drawing.Point(288, 144);
+            this.moneyLabel.Location = new System.Drawing.Point(288, 120);
             this.moneyLabel.Name = "moneyLabel";
             this.moneyLabel.ReadOnly = true;
             this.moneyLabel.Size = new System.Drawing.Size(88, 30);

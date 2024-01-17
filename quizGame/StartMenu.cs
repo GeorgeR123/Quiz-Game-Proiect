@@ -60,6 +60,11 @@ namespace quizGame
 
             gameWindow.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            moneyLabel.Text = GlobalVariables.money.ToString();
+        }
     }
 
     public static class GlobalVariables

@@ -29,12 +29,17 @@ namespace quizGame
         private void AdaugaBani(object sender, EventArgs e)
         {
             money += 10;
-            moneyLabel.Refresh();
+            moneyLabel.Text = GlobalVariables.money.ToString();
         }
 
         private void label1_Click_1(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            moneyLabel.Text = GlobalVariables.money.ToString();
         }
     }
 }

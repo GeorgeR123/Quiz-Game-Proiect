@@ -36,6 +36,7 @@
             this.button8 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.moneyLabel = new System.Windows.Forms.Label();
+            this.help = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -63,7 +64,7 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(56, 528);
+            this.button5.Location = new System.Drawing.Point(8, 528);
             this.button5.Margin = new System.Windows.Forms.Padding(4);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(473, 62);
@@ -74,7 +75,7 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(56, 632);
+            this.button6.Location = new System.Drawing.Point(8, 632);
             this.button6.Margin = new System.Windows.Forms.Padding(4);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(473, 62);
@@ -126,11 +127,22 @@
             this.moneyLabel.TabIndex = 8;
             this.moneyLabel.Text = "moneyLabel";
             // 
+            // help
+            // 
+            this.help.Location = new System.Drawing.Point(480, 584);
+            this.help.Name = "help";
+            this.help.Size = new System.Drawing.Size(96, 48);
+            this.help.TabIndex = 11;
+            this.help.Text = "ajutor";
+            this.help.UseVisualStyleBackColor = true;
+            this.help.Click += new System.EventHandler(this.ajutor);
+            // 
             // MLV2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 709);
+            this.Controls.Add(this.help);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.moneyLabel);
             this.Controls.Add(this.button8);
@@ -164,5 +176,6 @@
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label moneyLabel;
+        private System.Windows.Forms.Button help;
     }
 }

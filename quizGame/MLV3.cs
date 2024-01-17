@@ -186,6 +186,46 @@ namespace quizGame
 
 
         }
+        private void ajutor(object sender, EventArgs e)
+        {
+            if (money >= 100)
+            {
+                money -= 100;
+                moneyLabel.Text = GlobalVariables.money.ToString();
+                if (correctAnswer == 1)
+                    MessageBox.Show(
+                        Environment.NewLine +
+                        "Raspunsul este cel din stanga sus " +
+                        Environment.NewLine +
+                        "A costat 100$. Mai ai: " + money + "$" +
+                        Environment.NewLine
+                        );
+                else if (correctAnswer == 2)
+                    MessageBox.Show(
+                        Environment.NewLine +
+                        "Raspunsul este cel din dreapta sus" +
+                        Environment.NewLine +
+                        "A costat 100$. Mai ai: " + money + "$" +
+                        Environment.NewLine
+                        );
+                else if (correctAnswer == 3)
+                    MessageBox.Show(
+                        Environment.NewLine +
+                        "Raspunsul este cel din stanga jos" +
+                        Environment.NewLine +
+                        "A costat 100$. Mai ai: " + money + "$" +
+                        Environment.NewLine
+                        );
+                else if (correctAnswer == 4)
+                    MessageBox.Show(
+                        Environment.NewLine +
+                        "Raspunsul este cel din dreapta jos" +
+                        Environment.NewLine +
+                        "A costat 100$. Mai ai: " + money + "$" +
+                        Environment.NewLine
+                        );
 
+            }
+        }
     }
 }
