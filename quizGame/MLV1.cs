@@ -32,7 +32,7 @@ namespace quizGame
 
             totalQuestions = 8;
 
-
+            moneyLabel.Text = GlobalVariables.money.ToString();
 
         }
 
@@ -61,8 +61,7 @@ namespace quizGame
 
                 MessageBox.Show("Quiz-ul a luat sfarsit" + Environment.NewLine +
                                 "Ai raspuns corect la " + score + " din intrebari" + Environment.NewLine +
-                                "Scorul tau final este " + percentage + " % " + Environment.NewLine +
-                                "Apasa butonul ok pentru a juca din nou"
+                                "Scorul tau final este " + percentage + " % " + Environment.NewLine 
 
                     );
 

@@ -1,4 +1,4 @@
-﻿using System;
+﻿ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -30,12 +30,12 @@ namespace quizGame
             string player_name2 = textBox2.Text;
 
             var dialogResult1= gameWindow.ShowDialog();
-
-            //player_score1 = dialogResult1;
+            int player_score1 = int.Parse(gameWindow.ReturnValue1);
 
             var dialogResult2 = gameWindow.ShowDialog();
+            int player_score2 = int.Parse(gameWindow.ReturnValue2);
 
-            //player_score2 = dialogResult2;
+
             if (player_score1 > player_score2)
             MessageBox.Show("Sfarsit!" + Environment.NewLine +
                             player_name1 + " a realizat " + player_score1 + " intrebari corecte!" + Environment.NewLine +

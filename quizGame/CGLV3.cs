@@ -21,7 +21,10 @@ namespace quizGame
         int score;
         int percentage;
         int totalQuestions;
+        int totalScore;
 
+        public string ReturnValue1 { get; set; }
+        public string ReturnValue2 { get; set; }
 
         public CGLV3()
         {
@@ -31,7 +34,7 @@ namespace quizGame
 
             totalQuestions = 8;
 
-
+            moneyLabel.Text = GlobalVariables.money.ToString();
 
         }
 
@@ -58,10 +61,9 @@ namespace quizGame
                 percentage = (int)Math.Round((double)(100 * score) / totalQuestions);
 
 
-                MessageBox.Show("Quiz Ended" + Environment.NewLine +
-                                "You have answered " + score + " questions correcly" + Environment.NewLine +
-                                "Your total percentage is " + percentage + " %" + Environment.NewLine +
-                                "Click Ok to play again"
+                MessageBox.Show("Quiz-ul a luat sfarsit" + Environment.NewLine +
+                                "Ai raspuns corect la " + score + " din intrebari" + Environment.NewLine +
+                                "Scorul tau final este " + percentage + " % " + Environment.NewLine
 
                     );
 
@@ -74,10 +76,15 @@ namespace quizGame
                     money += 100;
                 }
 
+                this.ReturnValue1 = score.ToString();
+                this.ReturnValue2 = score.ToString();
+
                 score = 0;
                 questionNumber = 0;
 
                 askQuestion(questionNumber);
+
+                this.Close();
             }
 
             questionNumber++;
